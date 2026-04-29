@@ -603,7 +603,7 @@
 }
 @layer components {
   .hero-bg {
-    background-image: url('/public/img/hero-img2.avif');
+    background-image: url('/img/hero-img2.avif');
     background-position: center;
     background-size: cover;
     overflow: hidden;
