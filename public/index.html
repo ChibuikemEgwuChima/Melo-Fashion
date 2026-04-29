@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <link href="../public/src/output.css" rel="stylesheet">
+  <title>Melo Fashion</title>
+</head>
+
+<body class="m-0">
+  <div class="hero-bg h-screen">
+    <nav
+      class="w-full fixed top-0 z-100  bg-black  uppercase font-medium text-xl flex flex-col md:flex-row  md:justify-between items-center text-white px-4 py-4 md:px-10">
+      <div>
+        <h1 class="text-2xl font-bold italic tracking-tighter">
+          <a href="/">Mole</a>
+        </h1>
+      </div>
+      <ul class="flex flex-wrap gap-x-4 gap-y-2 md:gap-10 tracking-widest italic text-[10px] px-2 md:text-[15px]">
+        <li class="hover">
+          <a href="">Home</a>
+        </li>
+        <li class="hover">
+          <a href="#designs">Designs</a>
+        </li>
+        <li class="hover">
+          <a href="#collections">Collections</a>
+        </li>
+        <li class="hover">
+          <a href="#about">About</a>
+        </li>
+      </ul>
+
+    </nav>
+    <div class="flex justify-between items-center pt-30 mt-60 mx-4 text-white">
+      <span class="hover btn">Explore</span>
+      <span class="hover btn">Our Collections</span>
+    </div>
+  </div>
+  </div>
+
+
+  <section class="px-4 sm:px-8 py-12 lg:py-16" id="designs">
+    <h2 class="text-xl  font-bold text-center mx-auto max-w-4xl px-4 leading-relaxed">
+      Find Your Balance In sun-faded tones and bursts of bold tie-dye. the yin-yang print brings <br>
+      good energy and harmong to long summer days with friends, while soft neon and earthy reds add that extra
+      spark
+    </h2>
+    <div class="gap-4  grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 mt-12 px-4 sm:px-8 py-12">
+      <div class="hover text-center">
+        <img src="../public/img/prada5.avif" alt="clothe">
+        <span>Comfortable Shirt</span>
+      </div>
+      <div class=" hover text-center">
+        <img src="../public/img/prada1.avif" alt="clothe" class="">
+        <span>Comfortable Shirt</span>
+      </div>
+      <div class="text-center hover">
+        <img src="../public/img/prada1.avif" alt="clothe" class="">
+        <span>Comfortable Shirt</span>
+      </div>
+      <div class="text-center hover">
+        <img src="../public/img/prada5.avif" alt="clothe" class="">
+        <span class="mt-1 text-center">Comfortable Shirt</span>
+      </div>
+
+    </div>
+
+    <div class="flex justify-between text-white mx-4 sm:mx-8 mt-16">
+      <span class="hover btn text-lg sm:text-xl px-8 py-3">Buy</span>
+      <span class="hover btn">Now</span>
+    </div>
+
+    <div class="flex justify-center px-4 py-8 mb-2">
+      <img src="../public/img/man1.avif" alt="model" class="pic">
+    </div>
+    <!--double images side to side  -->
+    <div class="flex justify-between gap-2 mt-3 md:gap-10">
+      <div class="hover w-[60%] overflow-hidden rounded-sm px-4">
+        <img src="../public/img/lv1.webp" alt="hhh" class="w-full h-auto object-cover lg:w-[70%]">
+      </div>
+      <div class=" hover w-[25%] overflow-hidden">
+        <img src="../public/img/lv2.avif" alt="hh">
+      </div>
+    </div>
+    <!-- last photo -->
+    <div class="flex justify-center mt-6 hover">
+      <img src="../public/img/img1.avif" alt="hi" class="object-cover w-full">
+    </div>
+  </section>
+  <!-- swiper section -->
+
+  <section class="text-center" id="collections">
+    <h2 class="text-xl font-bold text-center mx-auto max-w-4xl px-4 leading-relaxed mb-3">
+      Find Your Balance In sun-faded tones and bursts of bold tie-dye. the yin-yang print brings <br>
+      good energy and harmong to long summer days with friends, while soft neon and earthy reds add that extra
+      spark
+    </h2>
+
+    <!-- swiper -->
+    <div class="swiper mySwiper w-full">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <img src="../public/img/prada1.avif" class="w-full h-auto object-contain lg:w-full lg:h-auto" alt="Model 1">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="../public/img/prada2.avif" class="w-full h-auto object-contain" alt="Model 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="../public/img/pradaa3.avif" class="w-full h-auto object-contain" alt="Model 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="../public/img/prada4.avif" class="w-full h-auto object-contain" alt="Model 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="../public/img/prada2.avif" class="w-full h-auto object-contain" alt="Model 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="../public/img/pradaa3.avif" class="w-full h-auto object-contain" alt="Model 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="../public/img/prada1.avif" class="w-full h-auto object-contain" alt="Model 2">
+        </div>
+
+      </div>
+      <div class="swiper-button-next text-blue-600"></div>
+      <div class="swiper-button-prev text-blue-600"></div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <footer id="about" class="bg-blue-600 text-white py-10 px-10 mt-0  border-t border-white/20">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+
+      <div class="space-y-4">
+        <h2 class="text-2xl text-black font-bold italic tracking-tighter hover">
+          <a href="">Mole</a>
+        </h2>
+        <p class="text-white text-sm leading-relaxed">Defining urban fashion through high-performance design.</p>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <h3 class="uppercase text-xs font-bold tracking-widest text-black mb-2">Explore</h3>
+        <a href="#" class="text-sm hover:translate-x-2 transition-transform duration-300 inline-block">Collections</a>
+        <a href="#" class="text-sm hover:translate-x-2 transition-transform duration-300 inline-block">Our Story</a>
+        <a href="#" class="text-sm hover:translate-x-2 transition-transform duration-300 inline-block">Journal</a>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <h3 class="uppercase text-xs font-bold tracking-widest text-black mb-2">Social</h3>
+        <a href="#" class="text-sm hover:text-blue-400 transition-colors">LinkedIn</a>
+        <a href="#" class="text-sm hover:text-sky-400 transition-colors">X (Twitter)</a>
+        <a href="#" class="text-sm hover:text-pink-400 transition-colors">Instagram</a>
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="uppercase text-xs font-bold tracking-widest text-black">Stay Updated</h3>
+        <div class="flex border-b border-white/30 pb-2 focus-within:border-white transition-all">
+          <input type="email" placeholder="Email Address" class="bg-transparent text-sm w-full outline-none">
+          <button class="text-xs uppercase font-bold tracking-widest hover:opacity-50 transition-opacity">Join</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto pt-10 flex justify-between items-center text-xs uppercase tracking-widest text-black">
+      <p>&copy; 2026 Mole Fashion House</p>
+      <p>Handcrafted by @DanteTheDeveloper</p>
+    </div>
+  </footer>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+
+      slidesPerView: 2,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+        delay: 2700,
+        pauseOnMouseEnter: true,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+
+</html>

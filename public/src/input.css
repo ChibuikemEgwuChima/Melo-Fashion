@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer components {
+    .hero-bg {
+        background-image: url('/public/img/hero-img2.avif');
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        height: 100vh;
+      }
+      .hover {
+        @apply hover:translate-x-2 transition-transform duration-300;
+      }
+      .btn {
+        @apply rounded-xl px-5 py-3 bg-black font-medium cursor-pointer;
+      }
+      .pic {
+        @apply w-full max-w-sm sm:max-w-md rounded-2xl hover:scale-105 transition-transform mx-auto;
+      }
+      
+}
